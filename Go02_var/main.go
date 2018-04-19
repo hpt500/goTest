@@ -28,16 +28,19 @@ func main() {
 	Println(x, y, a, b, c, d, e)
 	Println()
 
-	// 指针应用
+	// 一.指针应用
 	example.VarPoint()
 
-	// 指针数组
+	// 二.指针数组
 	example.PtrArr()
 
-	// 指向指针的指针变量
+	// 三.指向指针的指针变量
 	example.PtrToPtr()
 
 	// 另额外说明 若向函数传递指针 则需在函数定义的参数设置为指针类型即可
 	// 且其函数内部的指针变量操作会影响实际参数
+
+	// 四.go语言类型转换
+	example.TypeCover()
 
 }
